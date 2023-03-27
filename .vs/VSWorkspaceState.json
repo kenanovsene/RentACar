@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Business",
+    "\\DataAccess",
+    "\\Entities"
   ],
-  "SelectedNode": "\\LICENSE",
+  "SelectedNode": "\\rentacar.sln",
   "PreviewInSolutionExplorer": false
 }

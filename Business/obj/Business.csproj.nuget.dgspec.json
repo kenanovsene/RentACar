@@ -11,7 +11,7 @@
         "projectName": "Business",
         "projectPath": "C:\\Users\\kenan\\source\\repos\\RentACar\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\kenan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenan\\source\\repos\\RentACar\\Business\\obj\\",
+        "outputPath": "C:\\Users\\kenan\\Source\\Repos\\RentACar\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kenan\\AppData\\Roaming\\NuGet\\NuGet.Config",
