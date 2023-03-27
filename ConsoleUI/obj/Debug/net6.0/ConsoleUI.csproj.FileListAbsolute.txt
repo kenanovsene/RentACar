@@ -13,3 +13,10 @@ C:\Users\kenan\source\repos\RentACar\ConsoleUI\obj\Debug\net6.0\refint\ConsoleUI
 C:\Users\kenan\source\repos\RentACar\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
 C:\Users\kenan\source\repos\RentACar\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 C:\Users\kenan\source\repos\RentACar\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+C:\Users\kenan\source\repos\RentACar\ConsoleUI\bin\Debug\net6.0\Business.dll
+C:\Users\kenan\source\repos\RentACar\ConsoleUI\bin\Debug\net6.0\DataAccess.dll
+C:\Users\kenan\source\repos\RentACar\ConsoleUI\bin\Debug\net6.0\Entities.dll
+C:\Users\kenan\source\repos\RentACar\ConsoleUI\bin\Debug\net6.0\Business.pdb
+C:\Users\kenan\source\repos\RentACar\ConsoleUI\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\kenan\source\repos\RentACar\ConsoleUI\bin\Debug\net6.0\Entities.pdb
+C:\Users\kenan\source\repos\RentACar\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CopyComplete

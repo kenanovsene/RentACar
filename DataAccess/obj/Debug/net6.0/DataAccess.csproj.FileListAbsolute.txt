@@ -1,0 +1,15 @@
+C:\Users\kenan\source\repos\RentACar\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\kenan\source\repos\RentACar\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\kenan\source\repos\RentACar\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\kenan\source\repos\RentACar\DataAccess\bin\Debug\net6.0\Entities.dll
+C:\Users\kenan\source\repos\RentACar\DataAccess\bin\Debug\net6.0\Entities.pdb
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\kenan\source\repos\RentACar\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
