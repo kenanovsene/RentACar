@@ -28,7 +28,7 @@ namespace Business.Concrete
                 return new ErrorResult(Messages.IncorrectDataEntry);
             }
            _carDal.Add(car);
-            return new SuccesResult(Messages.CarAded);  
+            return new SuccesResult(Messages.CarAdded);  
 
         }
 
