@@ -50,6 +50,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
             }
           },
           "imports": [
@@ -173,6 +177,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Castle.DynamicProxy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.4, )"

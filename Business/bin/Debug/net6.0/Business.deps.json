@@ -10,7 +10,8 @@
         "dependencies": {
           "Autofac": "7.0.0",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "FluentValidation": "11.5.1"
         },
         "runtime": {
           "Business.dll": {}
@@ -24,6 +25,45 @@
           "lib/net6.0/Autofac.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Castle.Core/1.2.0": {
+        "dependencies": {
+          "NLog": "1.0.0.505",
+          "log4net": "1.2.10"
+        },
+        "runtime": {
+          "lib/Castle.Core.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.6623"
+          },
+          "lib/Castle.Services.Logging.NLogIntegration.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.6627"
+          },
+          "lib/Castle.Services.Logging.log4netIntegration.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.6627"
+          }
+        }
+      },
+      "Castle.DynamicProxy/2.2.0": {
+        "dependencies": {
+          "Castle.Core": "1.2.0"
+        },
+        "runtime": {
+          "lib/Castle.DynamicProxy2.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.6628"
+          }
+        }
+      },
+      "FluentValidation/11.5.1": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.5.1.0"
           }
         }
       },
@@ -66,6 +106,14 @@
           "lib/netstandard2.0/K4os.Hash.xxHash.dll": {
             "assemblyVersion": "1.0.6.0",
             "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "log4net/1.2.10": {
+        "runtime": {
+          "lib/2.0/log4net.dll": {
+            "assemblyVersion": "1.2.10.0",
+            "fileVersion": "1.2.10.0"
           }
         }
       },
@@ -278,6 +326,14 @@
           }
         }
       },
+      "NLog/1.0.0.505": {
+        "runtime": {
+          "lib/NLog.dll": {
+            "assemblyVersion": "1.0.0.505",
+            "fileVersion": "1.0.0.505"
+          }
+        }
+      },
       "Portable.BouncyCastle/1.9.0": {
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
@@ -440,6 +496,8 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "Castle.DynamicProxy": "2.2.0",
+          "FluentValidation": "11.5.1",
           "Microsoft.EntityFrameworkCore": "7.0.4"
         },
         "runtime": {
@@ -479,6 +537,27 @@
       "path": "autofac/7.0.0",
       "hashPath": "autofac.7.0.0.nupkg.sha512"
     },
+    "Castle.Core/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nzf3go+P9ZReJOWX1FVAnd2eBcF7u1sjIll2KC80B2kTmJTJY/cqvJG6kK/x/dXrPh4zmdPatnnVWZ/nrKzEaw==",
+      "path": "castle.core/1.2.0",
+      "hashPath": "castle.core.1.2.0.nupkg.sha512"
+    },
+    "Castle.DynamicProxy/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3eiJiPYF7wK0CmHn47d56kbJLfvTGfLZ8D5G1dLLRbCo8h28gn6qkKTxFk/65FDz9zeUqWWmpZ3SAwhbpOr1sw==",
+      "path": "castle.dynamicproxy/2.2.0",
+      "hashPath": "castle.dynamicproxy.2.2.0.nupkg.sha512"
+    },
+    "FluentValidation/11.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0h1Q5lNOLLyYTWMJmyNoMqhY4CBRvvUWvJP1R4F2CnmmzuWwvB0A8aVmw5+lOuwYnwUwCRrdeMLbc81F38ahNQ==",
+      "path": "fluentvalidation/11.5.1",
+      "hashPath": "fluentvalidation.11.5.1.nupkg.sha512"
+    },
     "Google.Protobuf/3.21.9": {
       "type": "package",
       "serviceable": true,
@@ -506,6 +585,13 @@
       "sha512": "sha512-jCfNP0inx1sGcP3KSbpiDEH3km2e1sVBjMfKo+V92jr1dL4ZYgA1uhRMl1wAtdGZcbObXIikKqtVlgx3j/CW6g==",
       "path": "k4os.hash.xxhash/1.0.6",
       "hashPath": "k4os.hash.xxhash.1.0.6.nupkg.sha512"
+    },
+    "log4net/1.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yP7PCpxPt5cB9yiRAvCwyW5YRqXV4jM4tpVLnm/ls2nJt786l5srbSdm5xIEVMXz/kOYqLKP177Gyqey1wdP/A==",
+      "path": "log4net/1.2.10",
+      "hashPath": "log4net.1.2.10.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.4": {
       "type": "package",
@@ -632,6 +718,13 @@
       "sha512": "sha512-z1XBdnVcfs1gayd5byjIVP6K1ayxE7iXbqsCfQV6CTi0hp73py+fuiYi2X2JWMg5mrafcWrWDrcX/4omM6Vrcg==",
       "path": "mysql.entityframeworkcore/7.0.0",
       "hashPath": "mysql.entityframeworkcore.7.0.0.nupkg.sha512"
+    },
+    "NLog/1.0.0.505": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7dnEHYmlfAho9gbM0KvjcfSej419aevcYyDNFcQf6ALcj+ZEkns64ZAN1KOOQK0lL20WHWXbKML4aA088BENTg==",
+      "path": "nlog/1.0.0.505",
+      "hashPath": "nlog.1.0.0.505.nupkg.sha512"
     },
     "Portable.BouncyCastle/1.9.0": {
       "type": "package",
