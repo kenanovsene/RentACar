@@ -12,5 +12,8 @@ namespace Business.Constants
         public static string Deleted = "Başarıyla silindi";
         public static string Updated = "Başarıyla güncellendi";
         public static string IncorrectDataEntry="Hatalı veri girişi";
+        public static string NotAdded= "Kayıt Eklenmedi";
+        public static string RentalAdded = "Kayıt Eklendi";
+        public static string RentalDeleted = "Kayıt Silindi";
     }
 }
