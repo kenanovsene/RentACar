@@ -13,7 +13,7 @@ namespace Entities.Concrete
         public int CarId { get; set; }
         public int CustomerId { get; set; }
         public DateTime RentDate { get; set; }
-        public DateTime ReturnDate { get; set; }
+        public DateTime? ReturnDate { get; set; }
         //public List<Car> Cars { get; set; }
         //public List<Customer> Customer { get; set; }
     }

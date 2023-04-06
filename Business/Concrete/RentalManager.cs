@@ -23,7 +23,8 @@ namespace Business.Concrete
 
         public IResult Add(Rental rental)
         {
-            if (!(rental.ReturnDate == null))
+            var result=_rentalDal.GetAll(c=>c.CarId == rental.CarId).OrderBy(x=>x.Id).LastOrDefault();
+            if ((result.ReturnDate == null))
             {
                 return new ErrorResult(Messages.NotAdded);
             }
